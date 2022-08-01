@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>chelin bakes</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+<section class="header">
+  <nav>
+    <a href="index.html"><img src="images/Chelin Bakes22.png"></a>;
+<div class="nav-links" Id="navLinks">
+  <i class="fas fa-times" onclick="hideMenu()"></i>
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="price.html">CAKE PRICE</a></li>
+    <li><a href="ContactUs.html">CONTACT US</a></li>
+  </ul>
+</div>
+<i class="fas fa-times" onclick="showMenu()"></i>
+
+</nav>
+
+  <div class="text-box">
+    <h1>For Kenya's best Cakes and Pastries</h1>
+    <p>Home of world class cakes and pastries made by the very best Pastry chefs around.From cakes,croissants,biscuits,queen cakes and muffins:<br>All in assorted flavours.</br></p>
+    <a href="price.html" class="hero-btn">Visit Us to Know More</a>
+
+</div>
+</section>
+
+<!---JavaScript for Toggle Menu-->
+<script>
+var navLinks=document.getElementById("navLinks");
+function showMenu(){
+  navLinks.style.right = "0";
+}
+function hideMenu(){
+  navLinks.style.rightright="-200px";
+}
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Monaco', sans-serif;
+    }
+    body{
+      background-color:#FFB6C1;
+      margin:0 10%;
+      font-family: sans-serif;
+      color:#FF1493;
+      font-size: 17px;
+      font-weight: normal;
+
+    }
+    nav{
+      display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    }
+    nav img{
+      width: 150px;
+    }
+    .contact-section{
+      color: #FF1493;
+      border:1px solid #FF1493 ;
+      padding: 12px 34px;
+      font-size:13px;
+      background: transparent;
+      position: relative;
+      cursor: pointer;
+    }
+    .contact-section h1{
+      text-align: center;
+      color: #FF1493;
+
+    }
+    .contact-section p{
+      text-align: left;
+      color: #FF1493;
+    }
+    .border{
+      width: 150px;
+      height: 100px;
+      background-color:white;
+      margin:40px 0;
+    }
+    .contact-form{
+      max-width: 600px;
+      margin: auto;
+      padding:0 10px;
+      overflow: hidden;
+    }
+    .contact-form-text{
+      display: block;
+      width: 900px;
+      height: 60px;
+      box-sizing: border-box;
+      margin:25px 0;
+      border:0;
+      background-color:white;
+      padding:25 50px;
+      outline: none;
+      color:black;
+      tranition:0.5s;
+
+    }
+    .contact-form-text: focus{
+      box-shadow: 0 0 15px 5px #FFB6C1;
+    }
+    textarea.content-form-text{
+      resize:none;
+      height: 120px;
+    }
+    .contact-form-btn{
+      float: right;
+      border: 0;
+      background-color:#FF1493;
+      padding:12px 50px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+.contact-form-btn:hover{
+  background-color:#FFB6C1;
+}
+    </style>
+</head>
+
+<body>
+  <a href="index.html"></a>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/Chelin Bakes22.png"></a>;
+    </nav>
+    <div "contact-section">
+      <h1>Contact Us</h1>
+      <p>Find us at Uhuru Plaza, Ground floor.</p>
+      <p>Phone us at 0743632189</p>
+      <p>Email us chelinbakes@gmail.com</p>
+      <form class="contact-form" action="ContactUs.html" method="post">
+<input type="text" class="contact-form-text" placeholder="Your Name">
+<input type="email" class="contact-form-text" placeholder="Your email">
+
+<textarea class="contact-form-text" placeholder="Your Message"></textarea>
+<input type="submit" class="contact-form-btn" value="Send"></input>
+      </form>
+    </div>
+
+</body>
+</html>
